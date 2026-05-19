@@ -1,0 +1,20 @@
+@media (max-width: 991px) {
+  #home_page .nav-bg {
+    background-color: #1b685b !important;
+  }
+  #home_page .navbar-nav {
+    width: auto;
+    padding: 0px !important;
+    background: none;
+  }
+  #home_page .navcoll {
+    background-color: #1b685b;
+    padding: 20px 15px;
+  }
+  #home_page .cart_icon {
+    background-color: black !important;
+  }
+  #home_page .navbar-nav .nav-item {
+    margin: 0px !important;
+  }
+}

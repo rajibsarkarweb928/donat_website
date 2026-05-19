@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#home_page .container-fluid {
+  width: 90%;
+}
+#home_page .navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+#home_page .navbar-brand {
+  color: #1b685b;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+}
+#home_page .nav-ul {
+  border-radius: 50px;
+}
+#home_page .navbar-nav {
+  width: 85%;
+  background-color: #1b685b;
+  padding: 0px 15px;
+}
+#home_page .nav-text {
+  color: #ffffff;
+}
+#home_page .nav-bg {
+  background-color: #ffffff !important;
+}
+#home_page .btn-outline-success {
+  background-color: #ffac00;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 0px 15px;
+  min-height: 45px;
+  font-family: "Poppins", sans-serif;
+}
+#home_page .serch_icon {
+  background-color: #ffac00;
+  padding: 15px;
+  border-radius: 50%;
+  color: #ffffff;
+  max-width: 50px;
+}
+#home_page .cart_icon {
+  background-color: #19685b;
+  padding: 15px;
+  border-radius: 50%;
+  color: #ffffff;
+  max-width: 50px;
+}
+#home_page .fa-heart {
+  color: #ffac00;
+}
+#home_page .carousel-caption h1 {
+  color: #211f1f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  width: 40%;
+}
+#home_page .carousel-caption p {
+  color: #211f1f;
+  width: 42%;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 0px;
+}
+#home_page .donat-button .btn-primary {
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #1b685b;
+  border: none;
+  border-radius: 50px;
+}
+#home_page .carousel-caption {
+  top: 25%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+#home_page .carousel-caption em {
+  color: #211f1f;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-weight: 700;
+}
+
+#home_page .about-more .ab1 {
+  position: relative;
+  max-height: 500px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+#home_page .about-more .ab2 {
+  position: absolute;
+  top: 980px;
+  left: 32%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 25px;
+}
+#home_page .about-more .ab3 {
+  position: absolute;
+  max-width: 370px;
+  height: auto;
+  bottom: -589px;
+  left: 29%;
+  border-radius: 25px;
+}
