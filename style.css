@@ -18,11 +18,13 @@
 }
 #home_page .nav-ul {
   border-radius: 50px;
-}
-#home_page .navbar-nav {
   width: 85%;
   background-color: #1b685b;
-  padding: 0px 15px;
+  padding: 8px 15px;
+}
+
+#home_page .container {
+  width: 90%;
 }
 #home_page .nav-text {
   color: #ffffff;
@@ -41,58 +43,67 @@
 }
 #home_page .serch_icon {
   background-color: #ffac00;
-  padding: 15px;
+  padding: 20px;
   border-radius: 50%;
   color: #ffffff;
-  max-width: 50px;
+  max-width: 60px;
+  font-size: 20px;
 }
 #home_page .cart_icon {
   background-color: #19685b;
-  padding: 15px;
+  padding: 20px;
   border-radius: 50%;
   color: #ffffff;
-  max-width: 50px;
+  max-width: 60px;
+  font-size: 20px;
 }
 #home_page .fa-heart {
   color: #ffac00;
 }
 #home_page .carousel-caption h1 {
   color: #211f1f;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-weight: 800;
-  font-size: 70px;
-  width: 40%;
+  font-size: 90px;
+  width: 50%;
 }
 #home_page .carousel-caption p {
   color: #211f1f;
   width: 42%;
   font-family: "Poppins", sans-serif;
   padding: 15px 0px;
+  font-size: 20px;
 }
 #home_page .donat-button .btn-primary {
-  padding: 10px 20px;
+  padding: 16px 27px;
   font-family: "Poppins", sans-serif;
   background-color: #1b685b;
   border: none;
   border-radius: 50px;
 }
 #home_page .carousel-caption {
-  top: 25%;
+  /* top: 25%;
   bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  text-align: left;
+  text-align: left; */
 }
 #home_page .carousel-caption em {
-  color: #211f1f;
+  color: #1b685b;
   font-family: "Edu NSW ACT Cursive", cursive;
   font-weight: 700;
+  font-size: 22px;
 }
-
-#home_page .about-more .ab1 {
+/* about-more-area */
+.about-more {
+  padding: 90px 15px;
+}
+.about-more .img-po {
   position: relative;
+}
+#home_page .about-more .ab1 {
   max-height: 500px;
   width: auto;
   object-fit: cover;
@@ -100,17 +111,100 @@
 }
 #home_page .about-more .ab2 {
   position: absolute;
-  top: 980px;
-  left: 32%;
+  top: 33px;
+  left: 48%;
   max-width: 300px;
   height: auto;
   border-radius: 25px;
 }
 #home_page .about-more .ab3 {
   position: absolute;
-  max-width: 370px;
+  max-width: 360px;
   height: auto;
-  bottom: -589px;
-  left: 29%;
+  bottom: -55px;
   border-radius: 25px;
+  right: 43px;
+}
+.about-more .ab-text em {
+  font-family: "Pacifico", cursive;
+  color: #ffab00;
+  font-size: 20px;
+}
+.about-more .ab-text h2 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+.about-more .ab-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.about-more .ab-text h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+/* .ab-services-area */
+.ab-services {
+  padding-top: 130px;
+}
+.ab-services h2 {
+  font-size: 60px;
+  font-family: "Fredoka", sans-serif;
+  color: #1b685b;
+}
+.ab-services .ab-col {
+  color: #ffab00;
+}
+.stat-box {
+  position: relative;
+}
+.stat-box::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: 23%;
+  width: 4px;
+  height: 80px;
+  background: #ddd;
+}
+/* humanist-service-area */
+.humanist-service .hs-bg {
+  background-image: url(img/hs.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+  text-align: center;
+  padding: 90px 15px;
+  border-radius: 50px;
+}
+.humanist-service em {
+  font-family: "Pacifico", cursive;
+  color: #ffab00;
+  font-size: 22px;
+}
+.humanist-service h2 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 10px 0px;
+  width: 40%;
+  margin: 0px auto;
+}
+.hs-card .hs-btn {
+  border-radius: 50px;
+  background-color: #ffab00;
+  border: none;
+  padding: 10px;
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+}
+.hs-card .card-body h5 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 25px;
+}
+.hs-card {
+  margin-top: 50px;
 }
