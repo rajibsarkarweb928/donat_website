@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 #home_page .container-fluid {
@@ -173,7 +174,6 @@
 .humanist-service .hs-bg {
   background-image: url(img/hs.png);
   background-repeat: no-repeat;
-  height: 100vh;
   background-size: cover;
   object-fit: cover;
   text-align: center;
@@ -207,4 +207,77 @@
 }
 .hs-card {
   margin-top: 50px;
+}
+.hs-card img {
+  max-height: 300px;
+  width: auto;
+  object-fit: cover;
+}
+.donat-text em {
+  font-family: "Pacifico", cursive;
+  color: #ffab00;
+  font-size: 20px;
+}
+.donat-text h2 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 10px 0px;
+  color: #ffffff;
+}
+.donat-text #dt-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 10px 0px;
+  color: #ffffff;
+}
+.donat-text .card-body h5 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 23px;
+}
+.donat-text .card-body p {
+  font-family: "Poppins", sans-serif;
+}
+.donat-text .card {
+  max-width: 650px;
+  border-radius: 30px;
+}
+.form-range::-webkit-slider-thumb {
+  background-color: #ffab00 !important;
+}
+.hs-card .card {
+  width: 23rem;
+  padding: 15px;
+  border-radius: 40px;
+  border: none;
+}
+.hs-card .card:hover {
+  box-shadow: 12px 12px 2px 1px rgba(159, 159, 164, 0.2);
+  animation: pulse 1s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.donat-text .donate-sub-text {
+  display: flex;
+  justify-content: space-between;
+}
+.donate-sub-text h6 {
+  color: #ffab00;
+}
+.donat-text {
+  /* background: #122e29; */
+}
+.donat-video-area {
+  padding: 100px 0px;
 }
