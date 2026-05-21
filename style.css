@@ -276,8 +276,44 @@
   color: #ffab00;
 }
 .donat-text {
-  /* background: #122e29; */
+  background: #122e29;
 }
 .donat-video-area {
   padding: 100px 0px;
+}
+.donat-video video {
+  height: 800px;
+  object-fit: cover;
+  margin-left: 4pc;
+}
+/* volunteer-area */
+.volunteer {
+  background: #f8f8f8;
+}
+
+.team-card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-bottom: 5px solid orange;
+}
+
+.plus-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  background: #0d7b68;
+  color: white;
+  font-size: 28px;
+}
+.team-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom: 5px solid orange;
 }
